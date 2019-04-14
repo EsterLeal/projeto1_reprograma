@@ -1,0 +1,62 @@
+body {
+    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Raleway', sans-serif;
+    background-color: #a55fc1cc;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    border-radius: 100px;
+    width: 500px;
+    height: 500px;
+    float: center;
+    margin: 250px 400px 250px 700px;
+}
+
+#menu ul {
+    align-content: center;
+    background-color: black;
+    float: left;
+    font: 80% tahoma;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style: none;
+    /* overflow: hidden; */
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a:not(.contact){
+    color: white;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#menu li a:hover:not(.contact) {
+    background-color: #a55fc1;
+    /* border-radius: 22px; */
+    color: white;
+}
+
+.contact {
+    /* background-color: #a55fc1; */
+    color: white;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    /* border-radius: 22px; */
+}
+
+.contact:hover {
+    background-color: #a55fc1a1;
+    color: white;
+}
